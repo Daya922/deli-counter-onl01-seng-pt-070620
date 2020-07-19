@@ -14,5 +14,6 @@ end
 end
 
 def take_a_number(deli, name)
-  binding.pry
+ # deli.push(name)
+  deli << name
 end
